@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(){
         isValid = false;
         messages.push('Email must be a valid email address');
     }
-    if(passwordInput.length > 8){
+    if(password.length > 8){
         isValid = false;
         messages.push('Password must be 8 characters long');
     }
